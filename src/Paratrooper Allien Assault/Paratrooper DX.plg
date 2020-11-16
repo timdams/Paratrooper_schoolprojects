@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Paratrooper DX - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Lagge\LOCALS~1\Temp\RSP29E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Paratrooper DX.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Lagge\LOCALS~1\Temp\RSP29E.tmp" 
+Creating temporary file "C:\DOCUME~1\Lagge\LOCALS~1\Temp\RSP29F.tmp" with contents
+[
+FMODVC.LIB ddraw.lib winmm.lib dinput8.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Paratrooper DX.pdb" /debug /machine:I386 /out:"Debug/Paratrooper DX.exe" /pdbtype:sept 
+".\Debug\MMIO.obj"
+".\Debug\Paratrooper DX.obj"
+".\Debug\PTDXGameObject.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Wave.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Lagge\LOCALS~1\Temp\RSP29F.tmp"
+<h3>Output Window</h3>
+Compiling...
+Paratrooper DX.cpp
+c:\dxsdk\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(336) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(337) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(338) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(339) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(968) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(969) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(988) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(989) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(995) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(996) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1009) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1010) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1017) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1018) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1046) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1047) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1065) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1066) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1084) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1085) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1098) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1099) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1107) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1108) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1115) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1116) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1123) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1124) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1693) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(1693) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\Visual C Projects\Paratrooper DX\Paratrooper DX.cpp(2125) : warning C4244: '=' : conversion from '__int64' to 'unsigned long', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+Paratrooper DX.exe - 0 error(s), 31 warning(s)
+</pre>
+</body>
+</html>

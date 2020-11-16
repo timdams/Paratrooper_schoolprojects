@@ -1,0 +1,156 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PT - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x813 /fo"Release/PT.res" /d "NDEBUG" "C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PT.rc"" 
+Creating temporary file "C:\DOCUME~1\Lagge\LOCALS~1\Temp\RSPF3.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/PT.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\BtnST.cpp"
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\IniFile.cpp"
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\MainFrm.cpp"
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PT.cpp"
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTDoc.cpp"
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTGameInfo.cpp"
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTGameInfoStatic.cpp"
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTGameObject.cpp"
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTGameStatistics.cpp"
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTHiScores.cpp"
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTInGameObject.cpp"
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTOptions.cpp"
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Lagge\LOCALS~1\Temp\RSPF3.tmp" 
+Creating temporary file "C:\DOCUME~1\Lagge\LOCALS~1\Temp\RSPF4.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/PT.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Lagge\LOCALS~1\Temp\RSPF4.tmp" 
+Creating temporary file "C:\DOCUME~1\Lagge\LOCALS~1\Temp\RSPF5.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/PT.pdb" /machine:I386 /out:"Release/PT.exe" 
+".\Release\BtnST.obj"
+".\Release\IniFile.obj"
+".\Release\MainFrm.obj"
+".\Release\PT.obj"
+".\Release\PTDoc.obj"
+".\Release\PTGameInfo.obj"
+".\Release\PTGameInfoStatic.obj"
+".\Release\PTGameObject.obj"
+".\Release\PTGameStatistics.obj"
+".\Release\PTHiScores.obj"
+".\Release\PTInGameObject.obj"
+".\Release\PTOptions.obj"
+".\Release\PTView.obj"
+".\Release\StdAfx.obj"
+".\Release\PT.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Lagge\LOCALS~1\Temp\RSPF5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BtnST.cpp
+IniFile.cpp
+MainFrm.cpp
+PT.cpp
+PTDoc.cpp
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTDoc.cpp(65) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTDoc.cpp(144) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTDoc.cpp(287) : warning C4553: '==' : operator has no effect; did you intend '='?
+PTGameInfo.cpp
+PTGameInfoStatic.cpp
+PTGameObject.cpp
+PTGameStatistics.cpp
+PTHiScores.cpp
+PTInGameObject.cpp
+PTOptions.cpp
+PTView.cpp
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(562) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(562) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(582) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(582) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(643) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(643) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(719) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(719) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(787) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(787) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(788) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(788) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(834) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(834) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(846) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(846) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(863) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(863) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(865) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(865) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(869) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(869) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(888) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(888) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(891) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(891) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(894) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(894) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(897) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(897) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(900) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(900) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(903) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(903) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(913) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(913) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(916) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(916) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(919) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(919) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(922) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(922) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(925) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(925) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(928) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(928) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(950) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(950) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(953) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(953) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(956) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(956) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(959) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(959) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(969) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(969) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(972) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(972) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(975) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(975) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(978) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(978) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(997) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(997) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(999) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(999) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(1001) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(1001) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(1004) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(1004) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(1101) : warning C4804: '>' : unsafe use of type 'bool' in operation
+C:\Documents and Settings\Lagge\Mijn documenten\Projects\Code\PTView.cpp(1595) : warning C4804: '>' : unsafe use of type 'bool' in operation
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PT.exe - 0 error(s), 75 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,469 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\PT.ico"
+IDR_PTTYPE              ICON    DISCARDABLE     "res\\PTDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "&New Game\tCtrl+N",           ID_FILE_NEW
+        MENUITEM "Statistics",                  ID_GAME_HISCORES
+        MENUITEM SEPARATOR
+        MENUITEM "&Options...\tCtrl+O",         ID_GAME_OPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About PT...",                ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About PT"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,20
+    LTEXT           "ParaTrooper Version 0.15",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+    GROUPBOX        "Credits",IDC_STATIC,42,46,150,90
+    LTEXT           "\nProgrammed by Tim Dams \n \t E-Mail: tim_gombi@hotmail.com \n\n\n Special thanx to:\n\tGuys @ SLO \n\tClassmates\n\tFamily for leaving me alone :p",
+                    IDC_STATIC,47,55,139,76,SS_SUNKEN
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PT MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "PT\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PT.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "PT Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "PT\n\nPT\n\n\nPT.Document\nPT Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "PT"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    IDS_STRINGERRORNEWDOC   "Error in NewDocument"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Dutch (Belgium) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NLB)
+#ifdef _WIN32
+LANGUAGE LANG_DUTCH, SUBLANG_DUTCH_BELGIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS DIALOG DISCARDABLE  0, 0, 400, 308
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_Points,316,178,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE | 
+                    WS_DISABLED
+    EDITTEXT        IDC_Lifes,317,199,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE | 
+                    WS_DISABLED
+    EDITTEXT        IDC_Level,317,219,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE | 
+                    WS_DISABLED
+    CONTROL         205,IDC_STATIC,"Static",SS_BITMAP,0,0,400,308
+    DEFPUSHBUTTON   "",IDOK,140,135,62,33
+    PUSHBUTTON      "",IDCANCEL,228,135,68,37
+    EDITTEXT        IDC_Name,109,193,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIFF,160,228,27,13,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_DIFFSPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,181,229,
+                    11,14
+    CONTROL         "",IDC_SOUND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,198,
+                    267,16,8
+    CONTROL         212,IDC_STATIC,"Static",SS_BITMAP,206,261,20,18
+END
+
+IDD_HISCORES DIALOGEX 0, 0, 290, 279
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Statistics"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "",IDC_ACCURACY,75,193,72,35
+    DEFPUSHBUTTON   "",IDOK,209,227,72,39
+    LTEXT           "Planes destroyed:",IDC_STATIC,63,168,57,8
+    LTEXT           "Bombs hit:",IDC_STATIC,63,137,34,8
+    LTEXT           "Hit parachute:",IDC_STATIC,63,93,46,8
+    LTEXT           "Troopers hit:",IDC_STATIC,63,78,40,8
+    LTEXT           "Troopers tried to land:",IDC_STATIC,33,63,70,8,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "Bullets fired",IDC_STATIC,33,21,43,8,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "",IDC_SHOTBULLETS,121,21,39,8
+    LTEXT           "",IDC_TROOPS,161,78,32,8
+    LTEXT           "",IDC_TROOPC,121,63,41,8
+    LTEXT           "Bombs dropped:",IDC_STATIC,33,123,52,8
+    LTEXT           "Helis attacked:",IDC_STATIC,33,33,48,8
+    LTEXT           "Helis destroyed:",IDC_STATIC,53,48,51,8
+    LTEXT           "Planes attacked:",IDC_STATIC,33,153,54,8
+    LTEXT           "",IDC_HELIC,121,33,46,8
+    LTEXT           "s",IDC_HELIS,161,48,47,8
+    LTEXT           "s",IDC_CHUTES,161,93,56,8
+    LTEXT           "s",IDC_BOMBC,121,123,57,8
+    LTEXT           "s",IDC_BOMBS,161,138,46,8
+    LTEXT           "s",IDC_PLANEC,121,153,51,8
+    LTEXT           "",IDC_PLANES,157,168,52,8
+    LTEXT           "Troopers landed:",IDC_STATIC,63,108,54,8
+    LTEXT           "",IDC_TROOPL,161,108,48,8
+    LTEXT           "Accuracy:",IDC_STATIC,31,199,33,8
+    LTEXT           "Static",IDC_SKILL,23,236,165,41
+    LTEXT           "Wise man says:",IDC_STATIC,13,218,50,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_HISCORES, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 277
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\PT.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GUNBODY             BITMAP  DISCARDABLE     "res\\gunbody.bmp"
+IDB_BKGR1               BITMAP  DISCARDABLE     "res\\background1.bmp"
+IDB_PLANETOLEFTGREY     BITMAP  DISCARDABLE     "res\\bomber2g.bmp"
+IDB_BULLET              BITMAP  DISCARDABLE     "res\\bullet.bmp"
+IDB_COMICFONT           BITMAP  DISCARDABLE     "res\\comicfont.bmp"
+IDB_LIFE                BITMAP  DISCARDABLE     "res\\life.bmp"
+IDB_CLOUD1              BITMAP  DISCARDABLE     "res\\cloudone.bmp"
+IDB_HELITOLEFTGREEN     BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_EXPLOSION           BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_BKGR2               BITMAP  DISCARDABLE     "res\\bkgr2.bmp"
+IDB_BKGR3               BITMAP  DISCARDABLE     "res\\bkgr3.bmp"
+IDB_TROOPLAND           BITMAP  DISCARDABLE     "res\\trooper.bmp"
+IDB_CHUTE               BITMAP  DISCARDABLE     "res\\chute.bmp"
+IDB_TROOPFALL           BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_HELITORIGHTRED      BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_HELITOLEFTRED       BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_HELITOLEFTPURP      BITMAP  DISCARDABLE     "res\\helitole.bmp"
+IDB_HELITORIGHTPURP     BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDB_HELITORIGHTGREEN    BITMAP  DISCARDABLE     "res\\helitori.bmp"
+IDB_SPLATAIR            BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDB_PLANETORIGHTGREY    BITMAP  DISCARDABLE     "res\\planetor.bmp"
+IDB_PLANETORIGHTGREEN   BITMAP  DISCARDABLE     "res\\planetol.bmp"
+IDB_BOMB                BITMAP  DISCARDABLE     "res\\bmp00008.bmp"
+IDB_OPTIONS             BITMAP  DISCARDABLE     "res\\options.bmp"
+IDB_SPLATGROUND         BITMAP  DISCARDABLE     "res\\splat.bmp"
+IDB_PLANETOLEFTGREEN    BITMAP  DISCARDABLE     "res\\bmp00007.bmp"
+IDB_OPTIONSCOVER        BITMAP  DISCARDABLE     "res\\optionscover.bmp"
+IDB_EXPLOSION2          BITMAP  DISCARDABLE     "res\\explosio.bmp"
+IDB_STATS               BITMAP  DISCARDABLE     "res\\stats.bmp"
+IDB_OKBTN               BITMAP  DISCARDABLE     "res\\okknop.bmp"
+IDB_OKBTNF              BITMAP  DISCARDABLE     "res\\okknopfoc.bmp"
+IDB_NOBTN               BITMAP  DISCARDABLE     "res\\noknop.bmp"
+IDB_NOBTNF              BITMAP  DISCARDABLE     "res\\noknopfoc.bmp"
+#endif    // Dutch (Belgium) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\PT.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,7 @@
+[User Info]
+Name = None
+
+[Game Setting]
+Sound = TRUE
+Music = TRUE
+Difficulty = 1
